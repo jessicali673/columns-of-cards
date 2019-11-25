@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
@@ -11,6 +12,7 @@ html {
 h2 {
   font-weight: bold;
   font-size: 2rem;
+  text-align: center;
 }
 
 img {
@@ -20,5 +22,53 @@ img {
 
 body {
   margin: 0;
-    display: flex;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 1.5rem;
+  margin: 0 auto 1.5rem;
+}
+
+.author {
+  font-style: italic;
+  font-size: .875rem;
+}
+
+.column-one {
+  border-left: solid #333;
+  background-color: #e2e2e2;
+  padding: .75rem;
+  margin: 0 0 1.5rem;
+}
+
+.column-two {
+  padding: .75rem;
+  margin: 0 0 1.5rem;
+  background-color: #ccc;
+  border-left: solid #333;
+  border-right: solid #333;
+}
+
+.column-three {
+  padding: .75rem;
+  margin: 0 0 1.5rem;
+  background-color: #aaa;
+  border-right: solid #333;
+}
+
+.column-four {
+  border-right: solid #333;
+  padding: .75rem;
+  margin: 0 0 1.5rem;
+  background-color: #999;
+}
+
+.btn {
+  color: #e2e2e2;
+  text-decoration: none;
+  background-color: #333;
+  border: 4px solid #333;
 }
