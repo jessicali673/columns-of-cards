@@ -12,3 +12,13 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
 }
+
+img {
+  display: block;
+  width: 25%;
+}
+
+body {
+  margin: 0;
+    display: flex;
+}
