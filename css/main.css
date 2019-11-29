@@ -12,6 +12,25 @@ html {
 
 img {
   display: block;
+  width: 100%;
+}
+
+.quest img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.dragon img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.dinosaur img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.laser img {
   width: 100px;
   margin: 0 auto 1.5rem;
 }
